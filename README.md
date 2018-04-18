@@ -109,6 +109,8 @@ cd /var/www/jelastictest/
 wget http://wordpress.org/latest.tar.gz
 tar -xvf latest.tar.gz
 
+mv wordpress/* . 
+
 chown -R nginx:nginx *
 
 mv wp-config-sample.php wp-config.php
