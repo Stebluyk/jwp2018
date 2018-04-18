@@ -26,6 +26,7 @@ SET PASSWORD = PASSWORD('new_psswd')
 ```bash
 #run this commands in mysql console
 CREATE DATABASE wordpressdb;
+uninstall plugin validate_password;
 
 CREATE USER 'jwp2018'@'localhost' IDENTIFIED BY 'jwp2018';
 
